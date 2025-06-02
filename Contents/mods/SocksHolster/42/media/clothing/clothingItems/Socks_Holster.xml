@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Socks_Holster.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Socks_Holster.fbx</m_FemaleModel>
+	<m_GUID>cf218c9d-4d60-45b6-ba68-66f86405a071</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Pelvis</m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Socks_Holster</textureChoices>
+</clothingItem>

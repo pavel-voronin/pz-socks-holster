@@ -1,0 +1,6 @@
+version=1
+id=3492083453
+title=Socks Holster
+description=Be creative, turn socks into holster
+tags=Build 42;Clothing/Armor;Items;Models;Silly/Fun
+visibility=public

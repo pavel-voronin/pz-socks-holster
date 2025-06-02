@@ -1,0 +1,38 @@
+module Base
+{
+    item Socks_Holster
+    {
+        DisplayName         = Socks Holster,
+        DisplayCategory     = Accessory,
+        Type                = Clothing,
+        Weight              = 0.2,
+        Icon                = Socks_Holster,
+        AttachmentsProvided = HolsterRight,
+        BodyLocation        = BeltExtra,
+        ClothingItem        = Socks_Holster,
+        WorldStaticModel    = Socks_Holster_Ground,
+        Tags                = FirearmLoot;IgnoreZombieDensity,
+    }
+    
+    model Socks_Holster_Ground
+    {
+        mesh = WorldItems/Socks_Holster_Ground,
+        texture = WorldItems/Socks_Holster,
+        scale = 0.33,
+    }
+    
+    craftRecipe SocksToHolster
+    {
+        timedAction = Making,
+        Time        = 50,
+        inputs
+        {
+            item 1 [Base.Socks_Ankle;Base.Socks_Ankle_White;Base.Socks_Ankle_Black;Base.Socks_Long;Base.Socks_Long_White;Base.Socks_Long_Black;Base.Socks_Heavy;Base.Socks_LegWarmers],
+        }
+        outputs
+        {
+            item 1 Base.Socks_Holster,
+        }
+        Tags = InHandCraft;CanBeDoneInDark,
+    }
+}
